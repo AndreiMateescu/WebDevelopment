@@ -1,0 +1,80 @@
+body {
+	font-family: arial, sans-serif;
+	font-weight: lighter;
+
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+#back{
+	width: 100%;
+	height: 600px;
+	background: #d0d0d0;
+}
+#form {
+	width:600px;
+	margin: 0 auto;
+	position: absolute;
+	top: 20%;
+	left: 27%;
+	background: #2e7c8a;
+	height: 400px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 5%;
+	color: white;
+	font-size: 1.4em;
+}
+#log {
+	padding: 5px;
+}
+#sub {
+	padding:10px;
+	cursor: pointer;
+	background: #000000;
+	color: white;
+	height: 40px;
+	width: 80px;
+	border-radius: 10%;
+}
+#sub:hover {
+	background: white;
+	color:black;
+	transition: all 1s;
+}
+
+#logout {
+	width: 100%;
+	height: 70px;
+	background: #266984;
+	position: absolute;
+	top: 20%;
+	text-align: center;
+	line-height: 70px;
+}
+
+#logout h1 {
+	color: white;
+	font-weight: 400;
+}
+
+#logout a {
+	background: #101010;
+	padding: 20px;
+	height: 40px;
+	width: 80px;
+	color: white;
+	text-decoration: none;
+	border-radius: 10%;
+}
+
+#logout a:hover {
+	background: white;
+	color: black;
+	transition: all 1s;
+
+}
